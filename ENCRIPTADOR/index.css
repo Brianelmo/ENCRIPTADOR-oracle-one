@@ -1,0 +1,141 @@
+body{
+    background-color:  #E5E5E5;;
+}
+
+main{
+
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    justify-content: center;
+   
+    
+}    
+
+
+header{
+    position: absolute;
+    margin-left: 40px;
+
+}    
+
+/* Texto a encriptar */
+.input-texto{
+
+    margin-top: 200px;
+    border: none;
+    background-color:  #E5E5E5;;
+    height: 48px;
+    width: 577px;
+    left: 240px;
+    top: 168px;
+    margin-bottom: 500px;
+    outline: none;
+    font-size: 30px;
+    color: #0A3871;
+    resize: none;
+}
+
+    /* Texto encriptado */
+.seccion2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    height: 820px;
+    width: 400px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    
+} 
+
+::placeholder{
+    color: #0A3871;
+} 
+
+
+
+.seccion2 textarea{
+    height: 300px;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    resize: none;
+    display: none;
+    font-size: 24px;
+    color: #0A3871;
+
+} 
+
+.seccion2 h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 24px;
+    text-align: center; 
+    line-height: 29px;
+    color: #343A40;
+}  
+
+.texto-2{
+    text-align: center;
+    color: #495057;
+}
+
+
+/* Botones */
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.encriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    background-color:#0A3871;
+    border-radius: 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+
+} 
+
+
+.desencriptar{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    background-color: #D8DFE8 ;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+    border: 1px solid #0A3871;
+} 
+
+.copiar{
+    margin-left: 120px;
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 24px;
+    border-radius: 24px;
+    background-color: #D8DFE8;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    transition: all ease 0.5s;
+    cursor: pointer;
+} 
+
+.copiar:hover{
+   background-color: #0A3871;
+   color: #FFFFFF;
+}
+ 
+
+/* Texto copiado */
+
+
